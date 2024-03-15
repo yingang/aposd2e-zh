@@ -1,0 +1,11 @@
+# vuepress@next
+node_modules/
+.temp
+.cache
+# vuepress@v1
+docs/.vuepress/dist/
+
+package-lock.json
+yarn.lock
+
+venv
