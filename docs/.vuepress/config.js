@@ -9,11 +9,11 @@ module.exports = {
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "软件设计的哲学",
+      title: "软件设计的哲学，第二版",
     },
     '/en/': {
       lang: 'en-US',
-      title: 'A Philosophy of Software Design',
+      title: 'A Philosophy of Software Design, 2nd Edition',
     }
   },
 
