@@ -18,7 +18,7 @@ https://www.amazon.com/dp/173210221X
 - [第 5 章 信息隐藏和信息泄露](ch05.md)
 - [第 6 章 通用的模块是更深的](ch06.md)
 - [第 7 章 不同的层级，不同的抽象](ch07.md)
-- [第 8 章 降低复杂性](ch08.md)
+- [第 8 章 下沉复杂性](ch08.md)
 - [第 9 章 在一起更好还是分开更好？](ch09.md)
 - [第 10 章 通过定义来规避错误](ch10.md)
 - [第 11 章 设计两次](ch11.md)
@@ -37,11 +37,12 @@ https://www.amazon.com/dp/173210221X
 
 ## 翻译说明
 
-无意中看到这本书的相关介绍，也很快找到了 GitHub 上的民间翻译版，因为看到一些翻译不太恰当的地方，所以想着顺手提交修正下，然后找到其中 Star 数量比较多的主要是 [Cactus-proj](https://github.com/Cactus-proj/A-Philosophy-of-Software-Design-zh) 和 [Go7hic](https://github.com/Go7hic/A-Philosophy-of-Software-Design) 的，但两者的内容几乎完全一样，包括翻译有错误的地方也错得一样。从实质内容的提交历史来看，应该 Cactus-proj 是更早的提交者，这一点从各自的 Fock/Star 数量也能侧面印证。
+原书第二版相对于第一版的内容变更不多，此翻译版本整体是在[第一版翻译](https://github.com/yingang/aposd-zh)的基础上增量更新而来，相关的历史请参见[第一版的翻译说明](https://github.com/yingang/aposd-zh/tree/main/docs#%E7%BF%BB%E8%AF%91%E8%AF%B4%E6%98%8E)。
 
-这两个项目均有收到并处理一些内容修正的 PR，但即使是 Cactus-proj，最新的几个 PR 也处于长期未处理的状态，应该都已经暂停维护了，然后基于 Cactus-proj，包含内容修复最多的是 [luojiego](https://github.com/luojiego/A-Philosophy-of-Software-Design-zh) 的 Fock，于是就基于这个创建了自己的 [Fork](https://github.com/yingang/aposd-zh)。除了一边阅读一边校对，也摸索着更新了相关的部署脚本，部署到我自己的 [GitHub Pages](https://yingang.github.io/aposd-zh/) 上，可直接在线阅读。
-
-从提交历史来看，[gdut-yy](https://github.com/gdut-yy) 应该是主要的翻译贡献者，[liquid207](https://github.com/liquid207)、[wanghuanwei](https://github.com/wanghuanwei)、[luojiego](https://github.com/luojiego) 和 [BlackGlory](https://github.com/BlackGlory) 也都贡献了比较多的翻译修正，[inkydragon](https://github.com/inkydragon) 则主要负责了 LaTeX 和 PDF 相关的工作以及格式规范、持续集成等方面的工作，不确定历史是否挖掘充分，所有提到未提到的贡献者，一并感谢！
+第二版的主要变更如下（[原作者网站的说明](https://web.stanford.edu/~ouster/cgi-bin/book.php)）：
+- 第 6 章（“通用的模块是更深的”）的内容有相对较多的更新（作者自述在第一版出版后，对选择通用设计的重要性有了更清晰的认识），同时也吸收了第一版中第 9.7 节和第 10.9 节的内容。
+- 第 9 章和第 12 章增加了一些内容，主要对比了 Robert Martin 所著《代码整洁之道》中的设计哲学（作者自述在诸如方法长度和注释的角色等方面与对方的观点有显著的分歧）。
+- 第 21 章（“决定什么是重要的”）是新增的章节，主要介绍好的软件设计如何将重要的东西和不重要的东西区分开，并更多关注在重要的东西上。
 
 如果您在阅读过程中，发现有翻译不当的地方，或者有其他建议，欢迎提交相应的 PR 或 Issue。
 
