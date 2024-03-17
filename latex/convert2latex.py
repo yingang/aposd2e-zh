@@ -215,7 +215,7 @@ for mdfile in os.listdir(MD_ROOT__DIR):
     # mdfile = 'ch0.md' # for debug
     fname, ext = os.path.splitext(mdfile)
     # 跳过非 markdown 文件 和 README.md
-    if ('.md' != ext) or ('README'==fname):
+    if ('.md' != ext):
         print("[md2tex] Skip file {}".format(mdfile))
         continue
     else:

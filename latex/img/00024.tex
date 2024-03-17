@@ -7,7 +7,7 @@ char* Buffer::alloc(mt numBytes){
         Buffer::Chunk* chunk = this->lastChunk; 
         char* result = chunk->data + chunk->length; 
         chunk->length += nuinBytes; 
-        this->extraAppendBytes -= nuinBytes; 
+        this->availableAppendBytes -= nuinBytes; 
         this->totalLength += numBytes; 
         return result;
     }
