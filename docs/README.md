@@ -72,6 +72,7 @@ https://www.amazon.com/dp/173210221X
 |layer / level|层 / 层级||
 |mindset|思维方式 / 思维||
 |obscurity|模糊性/模糊项||
+|pass-through|透传|用于“透传方法”、“透传变量”、“透传参数”等场景|
 |public method / variables|公有方法 / 公有变量|没有用“公开”是希望与 expose 和 exposure 等术语的翻译混淆|
 |red flag|危险信号||
 |selection|区域选择 / 选择的区域 / 所选区域|图像界面文本编译器中的示例，直接翻译成“选择”会不太清晰|
