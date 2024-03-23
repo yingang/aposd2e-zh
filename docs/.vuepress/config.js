@@ -50,7 +50,7 @@ module.exports = {
         selectLanguageName: '繁体中文',
         selectLanguageText: '選擇語言',
         selectLanguageAriaselectLanguageName: '選擇語言',
-        editLink: false,
+        editLink: true,
         editLinkText: '在 GitHub 上編輯此頁',
         lastUpdatedText: '上次更新',
       }

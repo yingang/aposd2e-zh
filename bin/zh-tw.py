@@ -5,7 +5,7 @@ def convert(src_path, dst_path, cfg='s2twp.json'):
     converter = opencc.OpenCC(cfg)
     with open(src_path, "r", encoding='utf-8') as src, open(dst_path, "w+", encoding='utf-8') as dst:
         dst.write("\n".join(
-            converter.convert(line.rstrip()).replace('(img/', '(../img/')
+            converter.convert(line.rstrip()).replace('(./figures', '(../figures')
                 .replace('髮送', '傳送')
                 .replace('髮布', '釋出')
                 .replace('髮生', '發生')
