@@ -14,6 +14,10 @@ module.exports = {
     '/en/': {
       lang: 'en-US',
       title: 'A Philosophy of Software Design, 2nd Edition',
+    },
+    '/zh-tw/' : {
+      lang: 'zh-TW',
+      title: '軟體設計的哲學，第二版',
     }
   },
 
@@ -41,6 +45,14 @@ module.exports = {
         editLink: false,
         editLinkText: 'Edit this page on GitHub',
         lastUpdatedText: 'Last Updated',
+      },
+      '/zh-tw/': {
+        selectLanguageName: '繁体中文',
+        selectLanguageText: '選擇語言',
+        selectLanguageAriaselectLanguageName: '選擇語言',
+        editLink: false,
+        editLinkText: '在 GitHub 上編輯此頁',
+        lastUpdatedText: '上次更新',
       }
     }
   })
