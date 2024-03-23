@@ -1,7 +1,7 @@
 ## Introduction
 
 <div style="margin: 0 auto;">
-  <img src="../cover.jpeg" width="210px" height="280px" />
+  <img src="../figures/cover.jpeg" width="210px" height="280px" />
 </div>
 
 https://www.amazon.com/dp/173210221X
