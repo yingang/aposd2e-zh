@@ -33,9 +33,9 @@
 
 ## 翻译说明
 
-原书第二版相对于第一版的内容变更不多，此翻译版本整体是在[第一版翻译](https://github.com/yingang/aposd-zh)的基础上增量更新而来，相关的历史请参见[第一版的翻译说明](https://github.com/yingang/aposd-zh/tree/main/docs#%E7%BF%BB%E8%AF%91%E8%AF%B4%E6%98%8E)。
+原书第二版相对于第一版的内容变更不多，此翻译版本整体是在[第一版翻译](https://github.com/yingang/aposd-zh)的基础上增量更新而来，相关的历史可参见[第一版的翻译说明](https://github.com/yingang/aposd-zh/tree/main/docs#%E7%BF%BB%E8%AF%91%E8%AF%B4%E6%98%8E)，在我参与校订之前， 主要的翻译贡献者包括 [gdut-yy](https://github.com/gdut-yy)、[liquid207](https://github.com/liquid207)、[wanghuanwei](https://github.com/wanghuanwei)、[luojiego](https://github.com/luojiego) 和 [BlackGlory](https://github.com/BlackGlory)。
 
-第二版的主要变更如下（[原作者网站的说明](https://web.stanford.edu/~ouster/cgi-bin/book.php)）：
+第二版的主要变更如下（翻译自[原作者网站的说明](https://web.stanford.edu/~ouster/cgi-bin/book.php)）：
 - 第 6 章（“通用的模块是更深的”）的内容有相对较多的更新（作者自述在第一版出版后，对选择通用设计的重要性有了更清晰的认识），同时也吸收了第一版中第 9.7 节和第 10.9 节的内容。
 - 第 9 章和第 12 章增加了一些内容，主要对比了 Robert Martin 所著《代码整洁之道》中的设计哲学（作者自述在诸如方法长度和注释的角色等方面与对方的观点有显著的分歧）。
 - 第 21 章（“决定什么是重要的”）是新增的章节，主要介绍好的软件设计如何将重要的事情和不重要的事情区分开，并更多关注在重要的事情上。
