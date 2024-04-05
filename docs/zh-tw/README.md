@@ -33,12 +33,12 @@
 
 ## 翻譯說明
 
-原書第二版相對於第一版的內容變更不多，此翻譯版本整體是在[第一版翻譯](https://github.com/yingang/aposd-zh)的基礎上增量更新而來，相關的歷史可參見[第一版的翻譯說明](https://github.com/yingang/aposd-zh/tree/main/docs#%E7%BF%BB%E8%AF%91%E8%AF%B4%E6%98%8E)，在我參與校訂之前， 主要的翻譯貢獻者包括 [gdut-yy](https://github.com/gdut-yy)、[liquid207](https://github.com/liquid207)、[wanghuanwei](https://github.com/wanghuanwei)、[luojiego](https://github.com/luojiego) 和 [BlackGlory](https://github.com/BlackGlory)。
+原書第二版相對於第一版的內容變更不多，此翻譯版本是在[第一版翻譯](https://github.com/yingang/aposd-zh)的基礎上增量更新而來的，而後者的歷史可參見其[翻譯說明](https://github.com/yingang/aposd-zh/tree/main/docs#%E7%BF%BB%E8%AF%91%E8%AF%B4%E6%98%8E)。
 
-第二版的主要變更如下（翻譯自[原作者網站的說明](https://web.stanford.edu/~ouster/cgi-bin/book.php)）：
-- 第 6 章（“通用的模組是更深的”）的內容有相對較多的更新（作者自述在第一版出版後，對選擇通用設計的重要性有了更清晰的認識），同時也吸收了第一版中第 9.7 節和第 10.9 節的內容。
-- 第 9 章和第 12 章增加了一些內容，主要對比了 Robert Martin 所著《程式碼整潔之道》中的設計哲學（作者自述在諸如方法長度和註釋的角色等方面與對方的觀點有顯著的分歧）。
-- 第 21 章（“決定什麼是重要的”）是新增的章節，主要介紹好的軟體設計如何將重要的事情和不重要的事情區分開，並更多關注在重要的事情上。
+第二版的主要變更如下，翻譯自[原作者網站的說明](https://web.stanford.edu/~ouster/cgi-bin/book.php)：
+- [第 6 章](ch06.md)（“通用的模組是更深的”）的內容有相對較多的更新。作者自述在第一版出版後，對選擇通用設計的重要性有了更清晰的認識。第 6 章同時也吸收了第一版中第 9.7 節和第 10.9 節的內容。
+- [第 9 章](ch09.md)和[第 12 章](ch12.md)增加了一些內容，主要對比了 Robert Martin 所著《程式碼整潔之道》中的設計哲學。作者自述在諸如方法的長度和註釋的作用等方面與對方的觀點有顯著的分歧。
+- [第 21 章](ch21.md)（“決定什麼是重要的”）是新增的章節，主要介紹好的軟體設計如何將重要的事情和不重要的事情區分開，並更多關注在重要的事情上。
 
 如果您在閱讀過程中，發現有翻譯不當的地方，或者有其他建議，歡迎提交相應的 PR 或 Issue。
 
