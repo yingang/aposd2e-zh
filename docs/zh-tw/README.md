@@ -52,32 +52,12 @@
 |-|-|-|
 |bug|缺陷 / 程式碼缺陷|沒有用“錯誤”是希望避免與 error 等術語的翻譯混淆|
 |change|變更|針對程式碼的時候，更多使用“變更”而不是“改變”，但根據實際的上下文而定|
-|change amplification|變更放大|同前|
-|classitis|多類症||
-|cognitive load|認知負荷||
-|complexity|複雜性|沒有用“複雜度”|
-|conjoined methods|連體方法||
+|complexity|複雜性|沒有用“複雜度”，類似的還有“依賴性（dependency）”和“模糊性（obscurity）”|
 |deep module / class|深模組 / 深類|沒有用“深層”是希望避免與 layer 和 level 等術語的翻譯混淆|
-|define error out of existence|透過定義來規避錯誤||
-|dependency / dependencies|依賴性 / 依賴項||
 |dispatcher|分發器|沒有用“排程器”是希望避免與 scheduler 等術語的翻譯混淆|
-|exception masking|異常遮蔽||
-|exception aggregation|異常聚合||
-|formal / informal|形式化的 / 非形式化的||
-|GUI|圖形介面 / 圖形使用者介面||
-|hierarchical|層次化的||
 |information leakage|資訊洩露|沒有用“洩漏”|
-|layer / level|層 / 層級||
-|mindset|思維方式 / 思維||
-|obscurity|模糊性/模糊項||
 |pass-through|透傳|用於“透傳方法”、“透傳變數”、“透傳引數”等場景|
 |public method / variables|公有方法 / 公有變數|沒有用“公開”是希望與 expose 和 exposure 等術語的翻譯混淆|
-|red flag|危險訊號||
 |selection|區域選擇 / 選擇的區域 / 所選區域|影象介面文字編譯器中的示例，直接翻譯成“選擇”會不太清晰|
 |shallow module / class|淺模組 / 淺類|沒有用“淺層”，和 deep 的翻譯選擇是同樣的原因|
-|strategic programming / approach|戰略式程式設計 / 戰略式方法||
-|tactical programming / approach|戰術式程式設計 / 戰術式方法 ||
-|taking it too far|做過頭了||
-|unknown unknowns|未知的未知||
-|waterfall method / model|瀑布式方法 / 瀑布式模型||
 |web browser / server|Web 瀏覽器 / Web 伺服器|沒有用“網路”或“網頁”是希望避免與 network 和 web page 等術語的翻譯混淆，就保留英文了|

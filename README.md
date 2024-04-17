@@ -1,7 +1,7 @@
 [![Build and Deploy](https://github.com/yingang/aposd2e-zh/actions/workflows/CI.yml/badge.svg)](https://github.com/yingang/aposd2e-zh/actions/workflows/CI.yml)
 # 《软件设计的哲学，第二版》 中文翻译
 
-在线阅读：https://yingang.github.io/aposd2e-zh/
+在线阅读：[简体中文](https://yingang.github.io/aposd2e-zh/) | [繁体中文](https://yingang.github.io/aposd2e-zh/zh-tw/)
 
 ## 简介
 

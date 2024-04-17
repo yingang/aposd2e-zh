@@ -52,32 +52,12 @@
 |-|-|-|
 |bug|缺陷 / 代码缺陷|没有用“错误”是希望避免与 error 等术语的翻译混淆|
 |change|变更|针对代码的时候，更多使用“变更”而不是“改变”，但根据实际的上下文而定|
-|change amplification|变更放大|同前|
-|classitis|多类症||
-|cognitive load|认知负荷||
-|complexity|复杂性|没有用“复杂度”|
-|conjoined methods|连体方法||
+|complexity|复杂性|没有用“复杂度”，类似的还有“依赖性（dependency）”和“模糊性（obscurity）”|
 |deep module / class|深模块 / 深类|没有用“深层”是希望避免与 layer 和 level 等术语的翻译混淆|
-|define error out of existence|通过定义来规避错误||
-|dependency / dependencies|依赖性 / 依赖项||
 |dispatcher|分发器|没有用“调度器”是希望避免与 scheduler 等术语的翻译混淆|
-|exception masking|异常屏蔽||
-|exception aggregation|异常聚合||
-|formal / informal|形式化的 / 非形式化的||
-|GUI|图形界面 / 图形用户界面||
-|hierarchical|层次化的||
 |information leakage|信息泄露|没有用“泄漏”|
-|layer / level|层 / 层级||
-|mindset|思维方式 / 思维||
-|obscurity|模糊性/模糊项||
 |pass-through|透传|用于“透传方法”、“透传变量”、“透传参数”等场景|
 |public method / variables|公有方法 / 公有变量|没有用“公开”是希望与 expose 和 exposure 等术语的翻译混淆|
-|red flag|危险信号||
 |selection|区域选择 / 选择的区域 / 所选区域|图像界面文本编译器中的示例，直接翻译成“选择”会不太清晰|
 |shallow module / class|浅模块 / 浅类|没有用“浅层”，和 deep 的翻译选择是同样的原因|
-|strategic programming / approach|战略式编程 / 战略式方法||
-|tactical programming / approach|战术式编程 / 战术式方法 || 
-|taking it too far|做过头了||
-|unknown unknowns|未知的未知||
-|waterfall method / model|瀑布式方法 / 瀑布式模型||
 |web browser / server|Web 浏览器 / Web 服务器|没有用“网络”或“网页”是希望避免与 network 和 web page 等术语的翻译混淆，就保留英文了|
