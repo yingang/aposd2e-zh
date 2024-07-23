@@ -33,7 +33,7 @@
 
 ## 翻译说明
 
-原书第二版相对于第一版的内容变更不多，此翻译版本是在[第一版翻译](https://github.com/yingang/aposd-zh)的基础上增量更新而来的，而后者的历史可参见其[翻译说明](https://github.com/yingang/aposd-zh/tree/main/docs#%E7%BF%BB%E8%AF%91%E8%AF%B4%E6%98%8E)。
+原书第二版相对于第一版的内容变更不多，此翻译版本是在[原书第一版翻译](https://github.com/yingang/aposd-zh)的基础上增量更新而来的，而后者的历史可参见其[翻译说明](https://github.com/yingang/aposd-zh/tree/main/docs#%E7%BF%BB%E8%AF%91%E8%AF%B4%E6%98%8E)。
 
 第二版的主要变更如下，翻译自[原作者网站的说明](https://web.stanford.edu/~ouster/cgi-bin/book.php)：
 - [第 6 章](ch06.md)（“通用的模块是更深的”）的内容有相对较多的更新。作者自述在第一版出版后，对选择通用设计的重要性有了更清晰的认识。第 6 章同时也吸收了第一版中第 9.7 节和第 10.9 节的内容。
@@ -52,7 +52,7 @@
 |-|-|-|
 |bug|缺陷 / 代码缺陷|没有用“错误”是希望避免与 error 等术语的翻译混淆|
 |change|变更|针对代码的时候，更多使用“变更”而不是“改变”，但根据实际的上下文而定|
-|clean|整洁的|与《整洁代码之道》等系列书籍的翻译保持一致|
+|clean|整洁的|与《代码整洁之道》等系列书籍的翻译保持一致|
 |complexity|复杂性|没有用“复杂度”，类似的还有“依赖性（dependency）”和“模糊性（obscurity）”|
 |deep module / class|深模块 / 深类|没有用“深层的”是希望避免与 layer 和 level 等术语的翻译混淆|
 |dispatcher|分发器|没有用“调度器”是希望避免与 scheduler 等术语的翻译混淆|
