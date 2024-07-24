@@ -42,7 +42,7 @@
 
 ## 翻译说明
 
-详细请参阅[翻译说明](https://github.com/yingang/aposd2e-zh/tree/main/docs#%E6%9C%AF%E8%AF%AD%E7%BF%BB%E8%AF%91)。
+详细请参阅[翻译说明](https://github.com/yingang/aposd2e-zh/tree/main/docs#%E7%BF%BB%E8%AF%91%E8%AF%B4%E6%98%8E)。
 
 ## 本地开发 & 阅读
 
