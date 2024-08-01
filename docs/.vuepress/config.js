@@ -28,7 +28,6 @@ module.exports = {
     docsDir: "docs",
     contributors: false,
     sidebarDepth: 2,
-    sidebar: "auto",
     locales: {
       '/': { // zh-CN
         selectLanguageName: '简体中文',
