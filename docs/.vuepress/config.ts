@@ -23,8 +23,8 @@ export default defineUserConfig({
     }
   },
 
-	theme: defaultTheme({
-		repo: "yingang/aposd2e-zh",
+  theme: defaultTheme({
+    repo: "yingang/aposd2e-zh",
     docsRepo: "yingang/aposd2e-zh",
     docsBranch: "main",
     docsDir: "docs",
@@ -34,30 +34,30 @@ export default defineUserConfig({
       '/': { // zh-CN
         selectLanguageName: '简体中文',
         selectLanguageText: '选择语言',
-        selectLanguageAriaselectLanguageName: '选择语言',
+        // selectLanguageAriaselectLanguageName: '选择语言',
         editLink: true,
         editLinkText: '在 GitHub 上编辑此页',
         lastUpdatedText: '上次更新',
-				sidebar: createSiderBar('docs', ''),
+        sidebar: createSiderBar('docs', ''),
       },
       '/en/': {
         selectLanguageName: 'English',
         selectLanguageText: 'Languages',
-        selectLanguageAriaselectLanguageName: 'Select language',
+        // selectLanguageAriaselectLanguageName: 'Select language',
         editLink: false,
         editLinkText: 'Edit this page on GitHub',
         lastUpdatedText: 'Last Updated',
-				createSiderBar: createSiderBar('docs/en', '/en'),
+        sidebar: createSiderBar('docs/en', '/en'),
       },
       '/zh-tw/': {
         selectLanguageName: '繁体中文',
         selectLanguageText: '選擇語言',
-        selectLanguageAriaselectLanguageName: '選擇語言',
+        // selectLanguageAriaselectLanguageName: '選擇語言',
         editLink: false,
         editLinkText: '在 GitHub 上編輯此頁',
         lastUpdatedText: '上次更新',
-				sidebar: createSiderBar('docs/zh-tw', '/zh-tw'),
+        sidebar: createSiderBar('docs/zh-tw', '/zh-tw'),
       }
     }
-	}),
+  }),
 })

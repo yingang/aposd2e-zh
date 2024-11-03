@@ -1,4 +1,4 @@
-## 简介
+# 简介
 
 <img src="./figures/cover.jpeg" style="width: 28%" />
 

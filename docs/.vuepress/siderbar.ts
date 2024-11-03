@@ -15,28 +15,38 @@ export function createSiderBar(docsDir: string, linkPrefix: string): SidebarArra
 	const sidebar: SidebarArrayOptions = []
 	const dir = path.resolve(docsDir)
 	const files = fs.readdirSync(dir)
+
+	sidebar.push(createSideBarItem(dir, 'README.md', linkPrefix))
+	sidebar.push(createSideBarItem(dir, 'preface.md', linkPrefix))
+
 	files.forEach((file) => {
-		if (file.endsWith('.md')) {
-			const filePath = path.join(dir, file)
-			const content = fs.readFileSync(filePath, 'utf-8')
-			const title = content.split('\n')[0].replace(/^#*/, '')
-
-			let item: SidebarItemOptions
-			if (file.endsWith('README.md')) {
-				item = {
-					text: title,
-					link: `${linkPrefix}`,
-				}
-			} else {
-				item = {
-					text: title,
-					link: `${linkPrefix}/${file.replace(/\.md$/, '.html')}`,
-				}
-			}
-
-			sidebar.push(item)
-		} else {
+		if (file.endsWith('.md') && file.startsWith('ch')) {
+			sidebar.push(createSideBarItem(dir, file, linkPrefix))
 		}
 	})
+
+	sidebar.push(createSideBarItem(dir, 'summary.md', linkPrefix))
+
 	return sidebar
+}
+
+function createSideBarItem(dir: string, file: string, linkPrefix: string) {
+	const filePath = path.join(dir, file)
+	const content = fs.readFileSync(filePath, 'utf-8')
+	const title = content.split('\n')[0].replace(/^#*/, '')
+
+	let item: SidebarItemOptions
+	if (file.endsWith('README.md')) {
+		item = {
+			text: title,
+			link: `${linkPrefix}/index.html`,
+		}
+	} else {
+		item = {
+			text: title,
+			link: `${linkPrefix}/${file.replace(/\.md$/, '.html')}`,
+		}
+	}
+
+	return item
 }

@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 
 <div style="margin: 0 auto;">
   <img src="../figures/cover.jpeg" width="210px" height="280px" />
