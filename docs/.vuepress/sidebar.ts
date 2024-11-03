@@ -11,26 +11,26 @@ import path from 'path'
  * @param {string} lang 语言
  * @param {string} docsDir 目录
  */
-export function createSiderBar(docsDir: string, linkPrefix: string): SidebarArrayOptions {
+export function createSidebar(docsDir: string, linkPrefix: string): SidebarArrayOptions {
 	const sidebar: SidebarArrayOptions = []
 	const dir = path.resolve(docsDir)
 	const files = fs.readdirSync(dir)
 
-	sidebar.push(createSideBarItem(dir, 'README.md', linkPrefix))
-	sidebar.push(createSideBarItem(dir, 'preface.md', linkPrefix))
+	sidebar.push(createSidebarItem(dir, 'README.md', linkPrefix))
+	sidebar.push(createSidebarItem(dir, 'preface.md', linkPrefix))
 
 	files.forEach((file) => {
 		if (file.endsWith('.md') && file.startsWith('ch')) {
-			sidebar.push(createSideBarItem(dir, file, linkPrefix))
+			sidebar.push(createSidebarItem(dir, file, linkPrefix))
 		}
 	})
 
-	sidebar.push(createSideBarItem(dir, 'summary.md', linkPrefix))
+	sidebar.push(createSidebarItem(dir, 'summary.md', linkPrefix))
 
 	return sidebar
 }
 
-function createSideBarItem(dir: string, file: string, linkPrefix: string) {
+function createSidebarItem(dir: string, file: string, linkPrefix: string) {
 	const filePath = path.join(dir, file)
 	const content = fs.readFileSync(filePath, 'utf-8')
 	const title = content.split('\n')[0].replace(/^#*/, '')
