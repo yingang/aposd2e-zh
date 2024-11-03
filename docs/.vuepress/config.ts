@@ -1,8 +1,10 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
+import { defineUserConfig } from 'vuepress'
+import { createSiderBar } from './siderbar'
 
-module.exports = {
-  bundler: viteBundler({}),
+export default defineUserConfig({
+	bundler: viteBundler({}),
 
   base: "/aposd2e-zh/",
 
@@ -21,8 +23,8 @@ module.exports = {
     }
   },
 
-  theme: defaultTheme({
-    repo: "yingang/aposd2e-zh",
+	theme: defaultTheme({
+		repo: "yingang/aposd2e-zh",
     docsRepo: "yingang/aposd2e-zh",
     docsBranch: "main",
     docsDir: "docs",
@@ -36,6 +38,7 @@ module.exports = {
         editLink: true,
         editLinkText: '在 GitHub 上编辑此页',
         lastUpdatedText: '上次更新',
+				sidebar: createSiderBar('docs', ''),
       },
       '/en/': {
         selectLanguageName: 'English',
@@ -44,6 +47,7 @@ module.exports = {
         editLink: false,
         editLinkText: 'Edit this page on GitHub',
         lastUpdatedText: 'Last Updated',
+				createSiderBar: createSiderBar('docs/en', '/en'),
       },
       '/zh-tw/': {
         selectLanguageName: '繁体中文',
@@ -52,7 +56,8 @@ module.exports = {
         editLink: false,
         editLinkText: '在 GitHub 上編輯此頁',
         lastUpdatedText: '上次更新',
+				sidebar: createSiderBar('docs/zh-tw', '/zh-tw'),
       }
     }
-  })
-};
+	}),
+})
