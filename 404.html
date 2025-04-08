@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>软件设计的哲学，第二版</title><meta name="description" content="">
+    <link rel="preload" href="/aposd2e-zh/assets/style-BCXB3hdu.css" as="style"><link rel="stylesheet" href="/aposd2e-zh/assets/style-BCXB3hdu.css">
+    <link rel="modulepreload" href="/aposd2e-zh/assets/app-W63b2ksF.js"><link rel="modulepreload" href="/aposd2e-zh/assets/404.html-4i1mSffm.js">
+    <link rel="prefetch" href="/aposd2e-zh/assets/index.html-C8yF2JyF.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch01.html-DkPkfcRS.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch02.html-SKcVpglb.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch03.html-CYfuZhGY.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch04.html-BqQx7L5F.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch05.html-BdlbO1EP.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch06.html-DQ2z4_oI.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch07.html-DnUm3OlX.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch08.html-BcXx4lud.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch09.html-_f4OzlMP.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch10.html-CZ5fB4NB.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch11.html-Df97RaZQ.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch12.html-D1CnKaFu.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch13.html-CU8E9uKP.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch14.html-DktAD4IF.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch15.html-yKH2gkpR.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch16.html-gDa-0gj8.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch17.html-DuxeKp60.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch18.html-Dd05Kj7W.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch19.html-DDB1BO1B.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch20.html-CtW7o7-6.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch21.html-CB0B05mu.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch22.html-BdO2PIdO.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/preface.html-KQzkY5sC.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/summary.html-C0FvbWpg.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/index.html-6z48wkIS.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch01.html-CcKJzOS6.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch02.html-mhJRdQxr.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch03.html-C7WxHAO7.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch04.html-Cr18H9Oz.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch05.html-Cg5mO23V.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch06.html-BwPIBhME.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch07.html-BuycO6lP.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch08.html-CCOpH9SO.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch09.html-BRKp13n3.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch10.html-B8hYcQdJ.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch11.html-4sA-4k_Z.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch12.html-Cw9Cgx7u.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch13.html-DLbDJvnJ.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch14.html-9MlUEuVz.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch15.html-D0qWs5en.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch16.html-r5LEBx0A.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch17.html-NBqCyBVK.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch18.html-BmB71b1p.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch19.html-BK5E1h1d.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch20.html-BvcguQGm.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch21.html-BfB2WhYm.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch22.html-CYXSt5dB.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/preface.html-jvKYDElY.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/summary.html-D_QScZTv.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/index.html-BrKAJVM5.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch01.html-BMsHCmV_.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch02.html-pt4nDnLx.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch03.html-C9Ybgw_J.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch04.html-BIzWNlkN.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch05.html-ChMTJcdP.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch06.html-DeCrXO_y.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch07.html-Cwi25lxt.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch08.html-CASyE8rD.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch09.html-CC9kQSHu.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch10.html-BftOoV4B.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch11.html-De_ORSMB.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch12.html-D9RS1igg.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch13.html-CNN9vJTJ.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch14.html-BbaC82t-.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch15.html-R49U4jd7.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch16.html-DQWAM23T.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch17.html-BYystyuG.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch18.html-97wEMaR1.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch19.html-C9d9XN2L.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch20.html-BbYP5ZSL.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch21.html-Cf_rEMwt.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/ch22.html-JB0y-dkF.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/preface.html-Df7sGrJO.js" as="script"><link rel="prefetch" href="/aposd2e-zh/assets/summary.html-3dYRuP4k.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-ec9917b8><main class="page" data-v-ec9917b8><div vp-content data-v-ec9917b8><h1 data-v-ec9917b8>404</h1><blockquote data-v-ec9917b8>Looks like we&#39;ve got some broken links.</blockquote><a class="route-link" href="/aposd2e-zh/" data-v-ec9917b8>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/aposd2e-zh/assets/app-W63b2ksF.js" defer></script>
+  </body>
+</html>
