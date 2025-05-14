@@ -56,7 +56,7 @@
 
 ```sh
 git clone https://github.com/yingang/aposd2e-zh.git
-cd aposd-zh/
+cd aposd2e-zh/
 yarn install    # 安装 VuePress@next
 yarn dev        # 编译并打开网页预览
 ```
