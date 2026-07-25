@@ -1,0 +1,9 @@
+# bin/zh-tw.py 的依賴。
+#
+# 版本必須釘住：OpenCC 各版本的字典不同，換版本會讓 docs/zh-tw/*.md 產生大量與
+# 台灣化無關的差異，diff 就無法審查了。升級版本時請單獨開一個 commit，並用
+# `python3 bin/zh-tw.py --stats` 檢查規則表有沒有規則因此失效（命中數變 0）。
+#
+# 注意不要換成 opencc-python-reimplemented：它的 config 參數不接受 's2twp.json'
+# 這種帶副檔名的寫法，且字典內容與官方版不同。
+opencc==1.4.1
