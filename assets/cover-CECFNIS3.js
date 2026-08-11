@@ -1,0 +1,1 @@
+var e=`/aposd2e-zh/assets/cover-BbonuOFD.jpeg`;export{e as t};
