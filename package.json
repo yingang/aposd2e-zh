@@ -6,7 +6,6 @@
     "dev": "vuepress dev docs --open --host 127.0.0.1",
     "build": "vuepress build docs"
   },
-  "devDependencies": {},
   "dependencies": {
     "@vuepress/bundler-vite": "^2.0.0-rc.15",
     "@vuepress/theme-default": "^2.0.0-rc.49",
