@@ -61,6 +61,16 @@ yarn install    # 安装 VuePress@next
 yarn dev        # 编译并打开网页预览
 ```
 
+## Star History
+
+<a href="https://www.star-history.com/?repos=yingang%2Faposd2e-zh&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=yingang/aposd2e-zh&type=date&theme=dark&legend=top-left&sealed_token=e5aAE9dwKmToozylCVpmLO22Iinx9VF3jZfXS9D86gRNZC5zwMKIQ2iyJ4JXkG1Ojj5-9DeZ2mkXqUfpQC0zbkGOHoNjuuKaadQfTTZFN2qwIbawQaVazA" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=yingang/aposd2e-zh&type=date&legend=top-left&sealed_token=e5aAE9dwKmToozylCVpmLO22Iinx9VF3jZfXS9D86gRNZC5zwMKIQ2iyJ4JXkG1Ojj5-9DeZ2mkXqUfpQC0zbkGOHoNjuuKaadQfTTZFN2qwIbawQaVazA" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=yingang/aposd2e-zh&type=date&legend=top-left&sealed_token=e5aAE9dwKmToozylCVpmLO22Iinx9VF3jZfXS9D86gRNZC5zwMKIQ2iyJ4JXkG1Ojj5-9DeZ2mkXqUfpQC0zbkGOHoNjuuKaadQfTTZFN2qwIbawQaVazA" />
+ </picture>
+</a>
+
 ## License
 
 [CC-BY 4.0](./LICENSE)
